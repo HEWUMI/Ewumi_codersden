@@ -1,6 +1,6 @@
 let VAR1='HELLO '//STRING
 let VAR2=TRUE//BOOLEAN
-let var3
+let var3//UNDEFINED
 let var4=null
 
 
