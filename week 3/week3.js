@@ -77,3 +77,18 @@ let periM=(sideA+sideB+sideC)
 
 console.log(`The perimeter of the triangle is ${periM}`
 )
+
+
+
+let length=+prompt('enter length')
+let breadth=+prompt('enter breadth')
+
+let recArea=(length*breadth)
+let recPeri=(2*(length+breadth))
+
+console.log(`the area of the rectangle is ${recArea}, and the perimeter is ${recPeri}`);
+
+
+let rightNow=new Date()
+console.log(`the date is ${rightNow.getFullYear()}-${rightNow.getMonth()}-${rightNow.getDate()} ${rightNow.getHours()}:${rightNow.getMinutes()}`) 
+
